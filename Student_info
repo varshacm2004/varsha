@@ -1,0 +1,15 @@
+public class person{
+    string name;
+    int age;
+}
+public static void main(String args[])
+{
+    system.out.println("name="+name);
+    system.out.println("age="+age);
+}
+public void display(){
+    system.out.println(name);
+    system.out.println(age);
+}
+person p1=new person();
+p1.display();
